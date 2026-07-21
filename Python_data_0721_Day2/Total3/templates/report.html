@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <style>
+    :root { color-scheme: light; --navy: #1f3864; --line: #d7deea; }
+    body { max-width: 960px; margin: 40px auto; padding: 0 24px;
+           color: #1d2530; font-family: Arial, "Noto Sans KR", sans-serif; }
+    h1 { margin-bottom: 8px; color: var(--navy); }
+    .generated { margin-bottom: 32px; color: #667085; }
+    .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+            margin: 20px 0 36px; }
+    .card { padding: 20px; border: 1px solid var(--line); border-radius: 10px;
+            background: #f8faff; }
+    .card span { display: block; margin-bottom: 8px; color: #667085; }
+    .card strong { font-size: 1.35rem; color: var(--navy); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 11px 14px; border: 1px solid var(--line); text-align: left; }
+    th { color: white; background: var(--navy); }
+    td:last-child, th:last-child { text-align: right; }
+    tbody tr:nth-child(even) { background: #f8faff; }
+    @media (max-width: 640px) { .kpis { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <p class="generated">생성 시각: {{ generated_at }}</p>
+
+  <h2>핵심 지표</h2>
+  <section class="kpis">
+    {% for name, value in kpi.items() %}
+    <div class="card">
+      <span>{{ name }}</span>
+      <strong>{{ "{:,}".format(value) }}</strong>
+    </div>
+    {% endfor %}
+  </section>
+
+  <h2>카테고리별 매출</h2>
+  <table>
+    <thead><tr><th>카테고리</th><th>매출</th></tr></thead>
+    <tbody>
+      {% for row in by_category %}
+      <tr><td>{{ row.category }}</td><td>{{ "{:,.1f}".format(row.amount) }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

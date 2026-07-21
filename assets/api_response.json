@@ -1,0 +1,651 @@
+{
+  "status": "ok",
+  "count": 40,
+  "results": [
+    {
+      "id": 1,
+      "username": "user_001",
+      "email": "user1@example.com",
+      "age": 30,
+      "is_active": false,
+      "signup_date": "2024-07-02",
+      "profile": {
+        "country": "KR",
+        "tier": "pro",
+        "score": 92.91
+      },
+      "tags": []
+    },
+    {
+      "id": 2,
+      "username": "user_002",
+      "email": "user2@example.com",
+      "age": 43,
+      "is_active": false,
+      "signup_date": "2025-03-18",
+      "profile": {
+        "country": "DE",
+        "tier": "pro",
+        "score": 0.23
+      },
+      "tags": [
+        "web",
+        "cloud"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "user_003",
+      "email": "user3@example.com",
+      "age": 49,
+      "is_active": false,
+      "signup_date": "2024-07-20",
+      "profile": {
+        "country": "JP",
+        "tier": "pro",
+        "score": 14.96
+      },
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": 4,
+      "username": "user_004",
+      "email": "user4@example.com",
+      "age": 65,
+      "is_active": true,
+      "signup_date": "2024-05-08",
+      "profile": {
+        "country": "DE",
+        "tier": "pro",
+        "score": 37.51
+      },
+      "tags": [
+        "data",
+        "ai"
+      ]
+    },
+    {
+      "id": 5,
+      "username": "user_005",
+      "email": "user5@example.com",
+      "age": 65,
+      "is_active": true,
+      "signup_date": "2024-12-18",
+      "profile": {
+        "country": "KR",
+        "tier": "free",
+        "score": 21.64
+      },
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
+      "id": 6,
+      "username": "user_006",
+      "email": "user6@example.com",
+      "age": 68,
+      "is_active": false,
+      "signup_date": "2024-06-25",
+      "profile": {
+        "country": "DE",
+        "tier": "free",
+        "score": 81.56
+      },
+      "tags": [
+        "data",
+        "web"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "user_007",
+      "email": "user7@example.com",
+      "age": -5,
+      "is_active": true,
+      "signup_date": "2024-11-07",
+      "profile": {
+        "country": "DE",
+        "tier": "free",
+        "score": 87.43
+      },
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": 8,
+      "username": "user_008",
+      "email": "user8@example.com",
+      "age": 64,
+      "is_active": true,
+      "signup_date": "2024-09-27",
+      "profile": {
+        "country": "DE",
+        "tier": "pro",
+        "score": 88.44
+      },
+      "tags": [
+        "cloud",
+        "mobile",
+        "ai"
+      ]
+    },
+    {
+      "id": 9,
+      "username": "user_009",
+      "email": "user9@example.com",
+      "age": 63,
+      "is_active": true,
+      "signup_date": "2024-07-07",
+      "profile": {
+        "country": "US",
+        "tier": "pro",
+        "score": 13.24
+      },
+      "tags": [
+        "cloud",
+        "data",
+        "web"
+      ]
+    },
+    {
+      "id": 10,
+      "username": "user_010",
+      "email": "user10@example.com",
+      "age": 42,
+      "is_active": true,
+      "signup_date": "2024-08-03",
+      "profile": {
+        "country": "US",
+        "tier": "enterprise",
+        "score": 89.18
+      },
+      "tags": []
+    },
+    {
+      "id": 11,
+      "username": "user_011",
+      "email": "user11@example.com",
+      "age": 35,
+      "is_active": false,
+      "signup_date": "2025-03-31",
+      "profile": {
+        "country": "US",
+        "tier": "pro",
+        "score": 0.17
+      },
+      "tags": [
+        "mobile",
+        "data"
+      ]
+    },
+    {
+      "id": 12,
+      "username": "user_012",
+      "email": "user12@example.com",
+      "age": 30,
+      "is_active": false,
+      "signup_date": "2024-12-06",
+      "profile": {
+        "country": "KR",
+        "tier": "enterprise",
+        "score": 78.2
+      },
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": 13,
+      "username": "user_013",
+      "email": "not-an-email",
+      "age": 28,
+      "is_active": true,
+      "signup_date": "2024-08-28",
+      "profile": {
+        "country": "KR",
+        "tier": "pro",
+        "score": 8.4
+      },
+      "tags": []
+    },
+    {
+      "id": 14,
+      "username": "user_014",
+      "email": "user14@example.com",
+      "age": 40,
+      "is_active": false,
+      "signup_date": "2024-05-29",
+      "profile": {
+        "country": "KR",
+        "tier": "enterprise",
+        "score": 30.81
+      },
+      "tags": [
+        "cloud",
+        "mobile"
+      ]
+    },
+    {
+      "id": 15,
+      "username": "user_015",
+      "email": "user15@example.com",
+      "age": 61,
+      "is_active": true,
+      "signup_date": "2025-04-06",
+      "profile": {
+        "country": "KR",
+        "tier": "enterprise",
+        "score": 62.68
+      },
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": 16,
+      "username": "user_016",
+      "email": "user16@example.com",
+      "age": 35,
+      "is_active": true,
+      "signup_date": "2025-05-15",
+      "profile": {
+        "country": "KR",
+        "tier": "pro",
+        "score": 98.54
+      },
+      "tags": [
+        "ai",
+        "data"
+      ]
+    },
+    {
+      "id": 17,
+      "username": "user_017",
+      "email": "user17@example.com",
+      "age": 49,
+      "is_active": true,
+      "signup_date": "2024-05-20",
+      "profile": {
+        "country": "US",
+        "tier": "enterprise",
+        "score": 26.48
+      },
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "id": 18,
+      "username": "user_018",
+      "email": "user18@example.com",
+      "age": 30,
+      "is_active": false,
+      "signup_date": "2024-11-05",
+      "profile": {
+        "country": "JP",
+        "tier": "enterprise",
+        "score": 73.36
+      },
+      "tags": [
+        "mobile",
+        "ai"
+      ]
+    },
+    {
+      "id": 19,
+      "username": "user_019",
+      "email": "user19@example.com",
+      "age": 63,
+      "is_active": false,
+      "signup_date": "2024-06-27",
+      "profile": {
+        "country": "KR",
+        "tier": "pro",
+        "score": 53.92
+      },
+      "tags": [
+        "web",
+        "mobile",
+        "cloud"
+      ]
+    },
+    {
+      "id": 20,
+      "username": "user_020",
+      "email": "user20@example.com",
+      "age": 57,
+      "is_active": false,
+      "signup_date": "2024-05-04",
+      "profile": {
+        "country": "DE",
+        "tier": "enterprise",
+        "score": 51.28
+      },
+      "tags": [
+        "mobile",
+        "data"
+      ]
+    },
+    {
+      "id": 21,
+      "username": "user_021",
+      "age": 28,
+      "is_active": false,
+      "signup_date": "2025-03-09",
+      "profile": {
+        "country": "KR",
+        "tier": "free",
+        "score": 99.99
+      },
+      "tags": []
+    },
+    {
+      "id": 22,
+      "username": "user_022",
+      "email": "user22@example.com",
+      "age": 20,
+      "is_active": true,
+      "signup_date": "2024-10-16",
+      "profile": {
+        "country": "KR",
+        "tier": "enterprise",
+        "score": 37.96
+      },
+      "tags": [
+        "cloud",
+        "data"
+      ]
+    },
+    {
+      "id": 23,
+      "username": "user_023",
+      "email": "user23@example.com",
+      "age": 72,
+      "is_active": false,
+      "signup_date": "2024-02-25",
+      "profile": {
+        "country": "DE",
+        "tier": "free",
+        "score": 80.26
+      },
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
+      "id": 24,
+      "username": "user_024",
+      "email": "user24@example.com",
+      "age": 25,
+      "is_active": false,
+      "signup_date": "2025-03-14",
+      "profile": {
+        "country": "US",
+        "tier": "pro",
+        "score": 1.19
+      },
+      "tags": [
+        "ai",
+        "data",
+        "cloud"
+      ]
+    },
+    {
+      "id": 25,
+      "username": "user_025",
+      "email": "user25@example.com",
+      "age": 68,
+      "is_active": true,
+      "signup_date": "2024-06-29",
+      "profile": {
+        "country": "US",
+        "tier": "enterprise",
+        "score": 58.84
+      },
+      "tags": []
+    },
+    {
+      "id": 26,
+      "username": "user_026",
+      "email": "user26@example.com",
+      "age": 63,
+      "is_active": false,
+      "signup_date": "2024-01-22",
+      "profile": {
+        "country": "JP",
+        "tier": "pro",
+        "score": 58.63
+      },
+      "tags": []
+    },
+    {
+      "id": 27,
+      "username": "user_027",
+      "email": "user27@example.com",
+      "age": 44,
+      "is_active": true,
+      "signup_date": "2024-02-12",
+      "profile": {
+        "country": "US",
+        "tier": "enterprise",
+        "score": 19.18
+      },
+      "tags": [
+        "mobile",
+        "ai"
+      ]
+    },
+    {
+      "id": 28,
+      "username": "user_028",
+      "email": "user28@example.com",
+      "age": 50,
+      "is_active": true,
+      "signup_date": "2024-04-13",
+      "profile": {
+        "country": "JP",
+        "tier": "enterprise",
+        "score": 30.75
+      },
+      "tags": [
+        "web",
+        "cloud"
+      ]
+    },
+    {
+      "id": 29,
+      "username": "user_029",
+      "email": "user29@example.com",
+      "age": 34,
+      "is_active": false,
+      "signup_date": "2025-04-20",
+      "profile": {
+        "country": "KR",
+        "tier": "enterprise",
+        "score": 150.0
+      },
+      "tags": []
+    },
+    {
+      "id": 30,
+      "username": "user_030",
+      "email": "user30@example.com",
+      "age": 37,
+      "is_active": true,
+      "signup_date": "2024-09-02",
+      "profile": {
+        "country": "DE",
+        "tier": "enterprise",
+        "score": 65.8
+      },
+      "tags": [
+        "cloud",
+        "web"
+      ]
+    },
+    {
+      "id": 31,
+      "username": "user_031",
+      "email": "user31@example.com",
+      "age": 59,
+      "is_active": false,
+      "signup_date": "2024-10-10",
+      "profile": {
+        "country": "KR",
+        "tier": "pro",
+        "score": 54.53
+      },
+      "tags": []
+    },
+    {
+      "id": 32,
+      "username": "user_032",
+      "email": "user32@example.com",
+      "age": 67,
+      "is_active": false,
+      "signup_date": "2024-03-21",
+      "profile": {
+        "country": "KR",
+        "tier": "pro",
+        "score": 41.85
+      },
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": 33,
+      "username": "user_033",
+      "email": "user33@example.com",
+      "age": 50,
+      "is_active": false,
+      "signup_date": "2024-01-15",
+      "profile": {
+        "country": "DE",
+        "tier": "pro",
+        "score": 33.51
+      },
+      "tags": [
+        "cloud",
+        "data"
+      ]
+    },
+    {
+      "id": 34,
+      "username": "user_034",
+      "email": "user34@example.com",
+      "age": 55,
+      "is_active": true,
+      "signup_date": "2024-05-07",
+      "profile": {
+        "country": "DE",
+        "tier": "enterprise",
+        "score": 27.77
+      },
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "id": 35,
+      "username": "user_035",
+      "email": "user35@example.com",
+      "age": 65,
+      "is_active": true,
+      "signup_date": "2024-01-20",
+      "profile": {
+        "country": "DE",
+        "tier": "enterprise",
+        "score": 49.71
+      },
+      "tags": [
+        "ai",
+        "mobile"
+      ]
+    },
+    {
+      "id": 36,
+      "username": "user_036",
+      "email": "user36@example.com",
+      "age": 35,
+      "is_active": true,
+      "signup_date": "2024-04-24",
+      "profile": {
+        "country": "KR",
+        "tier": "free",
+        "score": 37.18
+      },
+      "tags": [
+        "ai",
+        "cloud"
+      ]
+    },
+    {
+      "id": 37,
+      "username": "user_037",
+      "email": "user37@example.com",
+      "age": 51,
+      "is_active": false,
+      "signup_date": "2024-05-14",
+      "profile": {
+        "country": "DE",
+        "tier": "free",
+        "score": 95.04
+      },
+      "tags": []
+    },
+    {
+      "id": 38,
+      "username": "user_038",
+      "email": "user38@example.com",
+      "age": 18,
+      "is_active": false,
+      "signup_date": "2024-04-18",
+      "profile": {
+        "country": "US",
+        "tier": "pro",
+        "score": 33.24
+      },
+      "tags": [
+        "data",
+        "mobile"
+      ]
+    },
+    {
+      "id": 39,
+      "username": "user_039",
+      "email": "user39@example.com",
+      "age": 62,
+      "is_active": true,
+      "signup_date": "2024-12-28",
+      "profile": {
+        "country": "KR",
+        "tier": "free",
+        "score": 52.29
+      },
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "id": 40,
+      "username": "user_040",
+      "email": "user40@example.com",
+      "age": 62,
+      "is_active": true,
+      "signup_date": "2025-04-06",
+      "profile": {
+        "country": "DE",
+        "tier": "free",
+        "score": 27.83
+      },
+      "tags": [
+        "web"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 17,
+    "ok": false,
+    "error": "TemporaryRequestError",
+    "reason": "모의 영구 서버 오류",
+    "attempts": 3
+  },
+  {
+    "id": 43,
+    "ok": false,
+    "error": "TemporaryRequestError",
+    "reason": "모의 영구 서버 오류",
+    "attempts": 3
+  }
+]
